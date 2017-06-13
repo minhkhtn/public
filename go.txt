@@ -1,0 +1,5 @@
+install vim-boostrap for go
+    http://vim-bootstrap.com/
+
+install vim-go https://github.com/fatih/vim-go-tutorial
+
