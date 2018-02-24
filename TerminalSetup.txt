@@ -1,3 +1,7 @@
 Prompt:
-vim ~/.bashrc, change PS1 to: PS1="\[\033[01;32m\]\u@\h \[\033[00m\]\$ "
-then run: source ~/.bashrc to update bash
+vim ~/.bash_profile, change PS1 to: PS1="\[\033[01;32m\]\u@\h \[\033[00m\]\$ "
+then run: source ~/.bash_profile to update bash
+or add the following at the end of bash_profile
+. ~/.bashrc
+
+  
