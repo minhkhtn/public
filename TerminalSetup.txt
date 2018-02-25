@@ -4,4 +4,9 @@ then run: source ~/.bash_profile to update bash
 or add the following at the end of bash_profile
 . ~/.bashrc
 
-  
+ctags:
+https://stackoverflow.com/questions/563616/vim-and-ctags-tips-and-tricks
+ctrl ] to definition
+ctrl T back from definition
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
