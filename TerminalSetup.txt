@@ -10,3 +10,10 @@ ctrl ] to definition
 ctrl T back from definition
 map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
 map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+tmux:
+~/.tmux.conf
+new -n WindowName bash --login
+bind c new-window -c "#{pane_current_path}"
+bind '"' split-window -c "#{pane_current_path}"
+bind % split-window -h -c "#{pane_current_path}"
