@@ -1,0 +1,2 @@
+-- Reset sequence
+ALTER SEQUENCE <tablename>_<id>_seq RESTART WITH 1;
