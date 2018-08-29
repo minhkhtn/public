@@ -1,0 +1,14 @@
+-- Show current config:
+git config --list
+
+-- Set global user name and email
+git config --global user.name "Your name here"
+git config --global user.email "Your email here"
+
+-- add github to a local repo
+git remote add origin https://github.com/user/repo.git
+# Set a new remote
+git remote -v
+# Verify new remote
+origin  https://github.com/user/repo.git (fetch)
+origin  https://github.com/user/repo.git (push)
