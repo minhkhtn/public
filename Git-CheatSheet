@@ -1,0 +1,6 @@
+-- Show current config:
+git config --list
+
+-- Set global user name and email
+git config --global user.name "Your name here"
+git config --global user.email "Your email here"
