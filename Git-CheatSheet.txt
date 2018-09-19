@@ -7,8 +7,13 @@ git config --global user.email "Your email here"
 
 -- add github to a local repo
 git remote add origin https://github.com/user/repo.git
-# Set a new remote
+
+-- Set a new remote
 git remote -v
-# Verify new remote
+
+-- Verify new remote
 origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
+
+-- Delete a remote
+git remote rm <remote name>, e.g git remote rm origin
