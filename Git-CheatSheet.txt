@@ -6,14 +6,29 @@ git config --global user.name "Your name here"
 git config --global user.email "Your email here"
 
 -- add github to a local repo
-git remote add origin https://github.com/user/repo.git
+git remote add <shortname> <url>
+example: git remote add origin https://github.com/user/repo.git
 
--- Set a new remote
+-- See current remotes
 git remote -v
-
 -- Verify new remote
 origin  https://github.com/user/repo.git (fetch)
 origin  https://github.com/user/repo.git (push)
 
 -- Delete a remote
 git remote rm <remote name>, e.g git remote rm origin
+
+-- Rename a remote
+git remote rename <current name> <new name>
+example: git remote rename origin the_origin
+
+git fetch <shortname>
+git pull <shortname> // fetch and merge
+
+-- push a local branch to a remote
+git push <shortname> <local branch name>
+example: git push origin master
+
+-- inspecting a remote 
+git remote show <shortname>
+
